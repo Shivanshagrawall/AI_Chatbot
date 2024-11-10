@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <!-- Favicon Added -->
+    <link rel="shortcut icon" href="ai-chatbot.avif" type="image/x-icon">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <span>AI Chatbot</span>
+    </div>
+
+    <!-- Main Section -->
+    <div class="chat-container">
+        <div class="ai-area-box">
+            <img src="ai-chatbot.avif" alt="ai Image" id="ai-image" height="50">
+            <div class="ai-area">
+                Hello ! How Can I help You?
+            </div>
+        </div>
+    </div>
+
+    <!-- Prompt Section -->
+    <div class="prompt-area">
+        <input type="text" name="input box" id="input-box" placeholder="Message...">
+        <button id="image-btn">
+            <img src="image.svg" alt="image input" id="image-input" height="70%" width="70%">
+            <input type="file" hidden accept="image/*">
+        </button>
+        <button><img src="submit.svg" alt="submit input" id="submit-input"></button>
+    </div>
+
+    <!-- Link to External CSS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
